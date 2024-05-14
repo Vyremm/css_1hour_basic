@@ -1,0 +1,48 @@
+body{
+    background-color: blue;
+    background-image: url("bananamans.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; /*to align the background */
+}
+h1{
+    color: rosybrown;
+    font-family: "Press Start 2P","consolas", sans-serif;
+
+    border-top-style: dotted;
+    border-bottom-style: double;
+    border-left-style: inset;
+    border-right-style: ridge;
+    border-left-width: 10px;
+    border-left-color: gold;
+
+    background: linear-gradient(to top, yellow,gold,lime);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p{
+    background-color: blue;
+    color: rosybrown;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: cyan, wavy;
+    font-size: 19px;
+
+    border-style: outset;
+    border-width: 30px;
+    border-color: silver;
+    border-radius: 100px;
+    padding: 2px;
+
+    background: linear-gradient(to right, yellow,gold,lime);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}/* external */
+#p1{
+    color: turquoise;
+}
+.odd{
+    background-color: lightblue;
+}
