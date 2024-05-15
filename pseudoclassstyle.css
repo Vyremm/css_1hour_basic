@@ -1,0 +1,24 @@
+a:link{
+    color: antiquewhite;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: lime;
+}
+button:hover{
+    background-color: blue;
+}
+button:active{
+    background-color: yellow;
+}
+/* li:nth-child(even){
+    background-color: seagreen;
+} */
+li:nth-child(3n+1){
+    background-color: seagreen;
+}

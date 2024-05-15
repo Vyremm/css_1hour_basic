@@ -1,0 +1,34 @@
+#box1{
+    border: 4px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 225px;
+    text-align: center;
+    background: limegreen;
+
+    transform: translateX(50px);
+    transform: translateY(50px);
+
+    transform: translate(50px,50px);
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+    transform: rotateZ(180deg);
+
+    transform: scaleX(3);
+    transform: scaley(3);
+
+    transform: scale(3,3);
+
+    transform: skew(3deg,3deg); /* also have X and Y */
+    /*
+    transform:matrix(1,0,0,1,0,0) X then Y
+        matrix combines the following:
+        scalex(),
+        skewY(),
+        skewx(),
+        scaleY),
+        translateX(),
+        translateY()
+    */
+
+}

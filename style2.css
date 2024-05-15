@@ -1,0 +1,21 @@
+#box1{
+    border: 1px solid;
+    height: 500px;
+    width: 500px;
+    background-color: aliceblue;
+
+    position: relative; /* fixed is to stay like an ad, or sticky to follow when its top or bottom */
+
+    top: 50px;
+    left: 50px;
+}
+#box2{
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-color: maroon;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

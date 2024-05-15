@@ -5,6 +5,8 @@ body{
     background-attachment: fixed;
     background-position: center;
     background-size: cover; /*to align the background */
+
+    margin: 0px;
 }
 h1{
     color: rosybrown;
@@ -39,10 +41,34 @@ p{
     background-repeat: no-repeat;
     background-attachment: fixed;
 
+    clear: left; /* to make the text move below the image */
+
 }/* external */
 #p1{
     color: turquoise;
 }
 .odd{
     background-color: lightblue;
+}
+
+#box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+
+    background: greenyellow;
+    margin: 50%;
+    margin-top: 100px;
+    margin-right: auto;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    text-align: center;
+    background: green;
+
+    float: left; /* to fit text and image into a line */
 }
